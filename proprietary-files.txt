@@ -2,28 +2,17 @@
 bin/prepare_param.sh
 vendor/firmware/bcm43438A1_V0068.0286.hcd
 
-# Camera
-lib/hw/camera.universal7870.so:lib/hw/camera.vendor.universal7870.so
+# Camera (OREO)
+lib/hw/camera.exynos7870.so:lib/hw/camera.vendor.universal7870.so
 lib/libexynoscamera.so
 lib/libexynoscamera3.so
 lib/libseccameracore.so
 lib/libuniplugin.so
-lib/libhwjpeg.so
-lib/libexynosutils.so
-lib/libcsc.so
-lib/libexynosgscaler.so
-lib/libexynosscaler.so
-lib/libexynosv4l2.so
-lib/libstainkiller.so
-lib/libHpr_RecFace_dl_v1.0.so
-lib/libHpr_RecGAE_cvFeature_v1.0.so
-lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so
 vendor/firmware/setfile_4h5yc.bin
 vendor/firmware/setfile_imx258.bin
-vendor/lib/libOpenCv.so:lib/libOpenCv.so
-vendor/lib/libHpr_LocLandmark_sdm_v1.0.so
-vendor/lib/libsomp.so:lib/libsomp.so
-vendor/lib/libHpr_LocFace_mvfd_v1.0.so
+vendor/lib/libOpenCv.so
+vendor/lib/libsomp.so
+vendor/lib/libstainkiller.so
 
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
