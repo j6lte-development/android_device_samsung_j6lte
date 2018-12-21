@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,8 +13,6 @@
 # limitations under the License.
 #
 
-# Audio Configs
+# Keylayouts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/mixer_paths_0.xml:system/vendor/etc/mixer_paths_0.xml
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:/system/vendor/usr/keylayout/gpio-keys.kl

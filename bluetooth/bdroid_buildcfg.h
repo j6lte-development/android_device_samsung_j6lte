@@ -18,7 +18,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "J7 Prime"
+#define BTM_DEF_LOCAL_NAME   "Galaxy J6"
 
 #define BLE_VND_INCLUDED TRUE
 #define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
