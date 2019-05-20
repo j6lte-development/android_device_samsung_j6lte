@@ -15,4 +15,4 @@
 #
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_j6lte_defconfig
+TARGET_KERNEL_CONFIG := j6lte_defconfig
