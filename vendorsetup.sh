@@ -1,3 +1,3 @@
-add_lunch_combo lineage_j6lte-user
-add_lunch_combo lineage_j6lte-userdebug
-add_lunch_combo lineage_j6lte-eng
+add_lunch_combo omni_j6lte-user
+add_lunch_combo omni_j6lte-userdebug
+add_lunch_combo omni_j6lte-eng
